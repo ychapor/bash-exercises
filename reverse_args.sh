@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Scenario that takes arguments, reverses each one of them and prints it
+# Scenario that takes arguments, reverses each one of them and prints them in one row.
 #
 # Arguments:
 #   Any number of random arguments
