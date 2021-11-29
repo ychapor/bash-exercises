@@ -1,6 +1,9 @@
 #!/bin/bash
 #
-# Scenario to output all arguments passed to the script in one row with reversed symbols
+# Scenario that takes arguments, reverses each one of them and prints it
+#
+# Arguments:
+#   Any number of random arguments
 
 args_count=$#
 
