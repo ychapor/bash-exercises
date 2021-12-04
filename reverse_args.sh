@@ -7,6 +7,11 @@
 
 args_count=$#
 
+if (( args_count == 0 )); then
+  echo "Please, pass some arguments."
+  exit
+fi
+
 for arg in "$@"; do {
   chars_count=${#arg}
 

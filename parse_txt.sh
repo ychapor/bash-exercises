@@ -17,6 +17,11 @@
 #   /var/www/html/index.html;0
 #   /var/www/html/f1;1000
 
+if [[ ! $1 ]]; then
+  echo "No text file specified! Pass the name of text file as an argument."
+  exit
+fi
+
 IFS=$';'$'\n' read -d '' -r -a filenames < $1
 i=0
 
