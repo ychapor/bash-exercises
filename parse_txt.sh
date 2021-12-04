@@ -18,7 +18,7 @@
 #   /var/www/html/f1;1000
 
 if [[ ! $1 ]]; then
-  echo "No text file specified! Pass the name of text file as an argument."
+  echo "No text file specified! Pass text file pathname as an argument."
   exit
 fi
 
